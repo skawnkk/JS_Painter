@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+    
+</head>
+<body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+        <div class="controls_range">
+            <input type="range" id="jsRange" min="0.001" max="10" value="5" step="0.1">
+        </div>
+        <div class="controls_btns">
+            <button id="jsMode">fill</button>
+            <button id="jsSave">save</button>
+        </div>
+        <div class="controls_colors" id="jsColors">
+            <div class="controls_color jsColors" style="background-color: black;"></div>
+            <div class="controls_color jsColors" style="background-color: white;"></div>
+            <div class="controls_color jsColors" style="background-color: red;"></div>
+            <div class="controls_color jsColors" style="background-color: orange;"></div>
+            <div class="controls_color jsColors" style="background-color: yellow;"></div>
+            <div class="controls_color jsColors" style="background-color: green;"></div>
+            <div class="controls_color jsColors" style="background-color: skyblue;"></div>
+            <div class="controls_color jsColors" style="background-color: blue;"></div>
+            <div class="controls_color jsColors" style="background-color: purple;"></div>
+        </div>
+
+    </div>
+    
+    <div class="works_display" id="works_display">
+        <div class="work" id="work_display">
+
+        </div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
